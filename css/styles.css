@@ -192,7 +192,7 @@ and (min-device-width : 0px)
 and (max-device-width : 700px) {
 	
 	#home {
-		font-size: 44px !important;
+		font-size: 45px !important;
 		padding:3px 90px 15px 20px;
 		width: calc(100% - 170px);
 		height: auto;
