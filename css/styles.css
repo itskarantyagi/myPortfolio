@@ -240,7 +240,7 @@ and (max-device-width : 700px) {
 	}
 	
 	#contact {
-		font-size: 43px !important;
+		font-size: 73px !important;
 		line-height: 100%;
 		padding:8px 105px 78px 20px;
 		width: calc(100% - 170px);
