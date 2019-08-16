@@ -185,7 +185,86 @@ body {
 	text-decoration: line-through;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		#home {
+		font-size: 45px !important;
+		padding:3px 90px 15px 20px;
+		width: calc(100% - 170px);
+		height: auto;
+		background-color: #000;
+		z-index: 5;
+		position: relative;
+		color: #FFF;
+		letter-spacing: -0.02em;
+	}
+	#home-about {
+		font-family: 'Grotesk-Bold';
+		
+		font-size: 35px !important;
+		line-height: 118%;
+		padding:10px 60px 60px 20px;
+		width: calc(100% - 170px);
+		height: auto;
+		background-color: #000;
+		z-index: 5;
+		position: relative;
+		color: #FFF;
+		letter-spacing: -0.007em;
+	}
+	#home-work {
+		font-family: 'Grotesk-Bold';
+		
+		font-size: 76px !important;
+		line-height: 100%;
+		padding:37px 84px 83px 20px;
+		width: calc(100% - 170px);
+		height: auto;
+		background-color: #000;
+		z-index: 5;
+		position: relative;
+		color: #FFF;
+		letter-spacing: -0.02em;
+	}
+	#home-work a:hover {
+		text-decoration: line-through;
+	}
+	#home-work a:link,
+	#home-work a:visited,
+	#home-work a:active {
+		color: #777;
+	}
+	
+	#contact {
+		font-size: 73px !important;
+		line-height: 100%;
+		padding:8px 105px 78px 20px;
+		width: calc(100% - 170px);
+		height: auto;
+		background-color: #000;
+		z-index: 5;
+		position: relative;
+		color: #FFF;
+		letter-spacing: -0.02em;
+	}
+	
+	#contact a:link,
+	#contact a:visited,
+	#contact a:active {
+		font-family:'Grotesk-Regular' !important;
+		color:#888;
+	}
+	
+	#contact a:hover {
+		text-decoration: line-through;
+	}
+	
+	#contact h1 a:hover {
+		text-decoration: line-through;
+	}
 
+/* Styles */
+}
 /* Smartphone */
 @media only screen 
 and (min-device-width : 0px) 
