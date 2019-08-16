@@ -269,7 +269,7 @@ body {
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 		#home {
-		font-size: 38px !important;
+		font-size: 127px !important;
 		padding:3px 90px 15px 20px;
 		width: calc(100% - 170px);
 		height: auto;
@@ -282,7 +282,7 @@ body {
 	#home-about {
 		font-family: 'Grotesk-Bold';
 		
-		font-size: 19px !important;
+		font-size: 63px !important;
 		line-height: 118%;
 		padding:20px 60px 60px 20px;
 		width: calc(100% - 170px);
@@ -296,9 +296,9 @@ body {
 	#home-work {
 		font-family: 'Grotesk-Bold';
 		
-		font-size: 40px !important;
+		font-size: 146px !important;
 		line-height: 100%;
-		padding:37px 84px 83px 20px;
+		padding:29px 84px 83px 20px;
 		width: calc(100% - 170px);
 		height: auto;
 		background-color: #000;
@@ -317,7 +317,7 @@ body {
 	}
 	
 	#contact {
-		font-size: 51px !important;
+		font-size: 138px !important;
 		line-height: 100%;
 		padding:8px 105px 78px 20px;
 		width: calc(100% - 170px);
