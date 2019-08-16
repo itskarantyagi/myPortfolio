@@ -346,7 +346,7 @@ body {
 /* Styles */
 }
 /* iPhone XS Max, XR ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
 	#home {
 		font-size: 57px !important;
 		padding:3px 90px 15px 20px;
