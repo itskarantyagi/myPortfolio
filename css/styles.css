@@ -348,7 +348,7 @@ body {
 /* iPhone XS Max, XR ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
 	#home {
-		font-size: 127px !important;
+		font-size: 57px !important;
 		padding:3px 90px 15px 20px;
 		width: calc(100% - 170px);
 		height: auto;
@@ -361,7 +361,7 @@ body {
 	#home-about {
 		font-family: 'Grotesk-Bold';
 		
-		font-size: 63px !important;
+		font-size: 30px !important;
 		line-height: 118%;
 		padding:20px 60px 60px 20px;
 		width: calc(100% - 170px);
@@ -375,7 +375,7 @@ body {
 	#home-work {
 		font-family: 'Grotesk-Bold';
 		
-		font-size: 146px !important;
+		font-size: 64px !important;
 		line-height: 100%;
 		padding:29px 84px 83px 20px;
 		width: calc(100% - 170px);
@@ -396,7 +396,7 @@ body {
 	}
 	
 	#contact {
-		font-size: 138px !important;
+		font-size: 81px !important;
 		line-height: 100%;
 		padding:8px 105px 78px 20px;
 		width: calc(100% - 170px);
