@@ -188,7 +188,7 @@ body {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 		#home {
-		font-size: 38px !important;
+		font-size: 57px !important;
 		padding:3px 90px 15px 20px;
 		width: calc(100% - 170px);
 		height: auto;
@@ -201,7 +201,7 @@ body {
 	#home-about {
 		font-family: 'Grotesk-Bold';
 		
-		font-size: 19px !important;
+		font-size: 30px !important;
 		line-height: 118%;
 		padding:20px 60px 60px 20px;
 		width: calc(100% - 170px);
@@ -215,9 +215,9 @@ body {
 	#home-work {
 		font-family: 'Grotesk-Bold';
 		
-		font-size: 40px !important;
+		font-size: 64px !important;
 		line-height: 100%;
-		padding:37px 84px 83px 20px;
+		padding:29px 84px 83px 20px;
 		width: calc(100% - 170px);
 		height: auto;
 		background-color: #000;
@@ -236,7 +236,7 @@ body {
 	}
 	
 	#contact {
-		font-size: 51px !important;
+		font-size: 81px !important;
 		line-height: 100%;
 		padding:8px 105px 78px 20px;
 		width: calc(100% - 170px);
