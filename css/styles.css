@@ -236,9 +236,9 @@ body {
 	}
 	
 	#contact {
-		font-size: 75px !important;
+		font-size: 70px !important;
 		line-height: 100%;
-		padding:12px 105px 78px 20px;
+		padding:18px 105px 78px 20px;
 		width: calc(100% - 170px);
 		height: auto;
 		background-color: #000;
