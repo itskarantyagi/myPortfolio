@@ -201,9 +201,9 @@ body {
 	#home-about {
 		font-family: 'Grotesk-Bold';
 		
-		font-size: 35px !important;
+		font-size: 19px !important;
 		line-height: 118%;
-		padding:10px 60px 60px 20px;
+		padding:0px 60px 60px 20px;
 		width: calc(100% - 170px);
 		height: auto;
 		background-color: #000;
