@@ -1,0 +1,72 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/png" href="img/fav.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Special Elite" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script>
+    jsfunc()
+    {
+        document.getElementById("content").innerHTML="<p>NEW HTML </p>";
+    }
+    
+      </script>
+
+</head>
+<body>
+
+    <div class="heading" href="#home"> 
+        <h1 class="name">KARAN TYAGI</h1>
+    </div>
+
+    <!--Nav bar-->
+    <div class="nav" id="nav">
+        <a class="active" href="#" id="about" onclick="jsfunc()">About Me</a>
+        <a href="#timeline" id="timeline" onclick="nav_content(this.id)">Timeline</a>
+        <a href="#work" id="my-work" onclick="nav_content(this.id)">My Work</a>
+        <a href="#jukebox" id="jukebox" onclick="nav_content(this.id)">Jukebox</a>
+         <a href="javascript:void(0);" class="icon">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
+
+    <!--nav-contact-->
+    <div class="contact-row">
+        <div class="contact-column"><a href="https://www.linkedin.com/in/karantyagi80/" target="_blank"><img src="img/linkedin.png" alt="linkedin" height="20" width="20"></a></div>
+        <div class="contact-column"><a href="https://www.instagram.com/paapipanda/" target="_blank"><img src="img/insta.png" alt="instagram" height="20" width="20"></a></div>
+        <div class="contact-column"><a href="mailto:karantyagi80@gmail.com" target="_blank"><img src="img/gmail.png" alt="Gmail" height="30" width="30"></a></div>
+    </div>
+
+    <!--about me-->
+    <div class="main-div" id="content">
+        <p>Hello! My name is Karan Tyagi.</p>
+    </div>
+
+    <!-- timeline -->
+    <!-- <div class="timeline" id="timeline">
+        <p> This is TIMELINE.</p>
+    </div> -->
+
+    <!--My Work-->
+    <!-- <div class="work" id="work">
+        <p>This is WORK.</p>
+    </div> -->
+
+    <!--Jukebox-->
+    <!-- <div class="jukebox" id="jukebox">
+        <p>This is JUKEBOX</p>
+    </div> -->
+
+    <!-- <footer>
+    <div class="contact-row">
+        <div class="contact-column"><a href="https://www.linkedin.com/in/karantyagi80/"><img src="img/linkedin.png" alt="linkedin" height="20" width="20"></a></div>
+        <div class="contact-column"><a href="https://www.instagram.com/paapipanda/"><img src="img/insta.png" alt="instagram" height="20" width="20"></a></div>
+        <div class="contact-column"><a href="mailto:karantyagi80@gmail.com"><img src="img/gmail.png" alt="Gmail" height="20" width="20"></a></div>
+    </div>
+</footer> -->
+</body>
+</html>
