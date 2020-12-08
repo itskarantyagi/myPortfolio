@@ -5,17 +5,11 @@
 
         <link rel="shortcut icon" type="image/png" href="img/fav.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Special Elite" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Special Elite" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/styles.css">
-    
-    <script>
-    jsfunc()
-    {
-        document.getElementById("content").innerHTML="<p>NEW HTML </p>";
-    }
-    
-      </script>
-
+    <script src="js/main.js"></script>
 </head>
 <body>
 <!---->
@@ -25,10 +19,10 @@
     
     <!--Nav bar-->
     <div class="nav" id="nav">
-        <a class="active" href="#" id="about" onclick="jsfunc()">About Me</a>
-        <a href="#timeline" id="timeline" onclick="nav_content(this.id)">Timeline</a>
-        <a href="#work" id="my-work" onclick="nav_content(this.id)">My Work</a>
-        <a href="#jukebox" id="jukebox" onclick="nav_content(this.id)">Jukebox</a>
+        <a class="active" href="#" id="about" onclick="about_div()">About Me</a>
+        <a href="#" id="design" onclick="design_div()">Design</a>
+        <a href="#" id="my-work" onclick="my_work_div()">Development</a>
+        <a href="#" id="jukebox" onclick="jukebox_div()">Jukebox</a>
          <a href="javascript:void(0);" class="icon">
     <i class="fa fa-bars"></i>
   </a>
@@ -36,37 +30,67 @@
 
     <!--nav-contact-->
     <div class="contact-row">
+        <div class="contact-column"><a href="https://medium.com/@karantyagi80" target="_blank"><img src="img/medium.png" alt="instagram" height="20" width="20" id="medium"></a></div>
         <div class="contact-column"><a href="https://www.linkedin.com/in/karantyagi80/" target="_blank"><img src="img/linkedin.png" alt="linkedin" height="20" width="20"></a></div>
-        <div class="contact-column"><a href="https://www.instagram.com/paapipanda/" target="_blank"><img src="img/insta.png" alt="instagram" height="20" width="20"></a></div>
         <div class="contact-column"><a href="mailto:karantyagi80@gmail.com" target="_blank"><img src="img/gmail.png" alt="Gmail" height="30" width="30"></a></div>
+        <div class="contact-column"><a href="https://www.behance.net/karantyagi" target="_blank"><img src="img/behance.png" alt="behance" height="40" width="40"></a></div>
     </div>
 
     <!--about me-->
-    <div class="main-div" id="content">
-        <p>Hello! My name is Karan Tyagi.</p>
+    <div class="about" id="about-div">
+        <p id="content">Hello! My name is Karan Tyagi. I'm a software developer. I am a creative person but have learned to be
+            technical over the years and I've tried to always pursue something which is an amalgamation of both.</p>
+        </div>
+
+    <!--design work-->
+    <div class="design-div" id="design-div">
+
+        <div class="college-fests">
+            <h1><a href="https://www.behance.net/collection/180902635/College-fests-work" alt="college-fests-designs" target="_blank">College Fest Designs</a></h1>
+            <p>Designs made for Entrepreneurship cell & Blood Donation Camp'18.</p>
+        </div>
+
+        <div class="puma">
+            <h1><a href="https://www.behance.net/collection/180902633/Puma-Design-Competition" alt="puma-competition-designs" target="_blank">Puma Competition Designs</a></h1>
+            <p>Designs made for Puma design competition. Designed a logo for sneaker fest.</p>
+        </div>
+
+        <div class="meraki">
+            <h1><a href="https://www.behance.net/collection/180902627/Meraki-Work" alt="meraki-instagram-designs" target="_blank">Meraki Instagram Designs</a></h1>
+            <p>Made a few designs for Meraki, instagram page where I posted some of my designs.</p>
+        </div>
+
+
+
+
     </div>
-<!---->
-    <!-- timeline -->
-    <!-- <div class="timeline" id="timeline">
-        <p> This is TIMELINE.</p>
-    </div> -->
 
-    <!--My Work-->
-    <!-- <div class="work" id="work">
-        <p>This is WORK.</p>
-    </div> -->
+    <!--development work-->
+    <div class="development-div" id="development-div">
 
-    <!--Jukebox-->
-    <!-- <div class="jukebox" id="jukebox">
-        <p>This is JUKEBOX</p>
-    </div> -->
+        <div class="voice-assistant">
+        <h1><a href="https://medium.com/@karantyagi80/making-a-voice-assistant-9078a026a762" alt="voice-assistant" target="_blank">Building a voice assistant</a></h1>
+        <p>Making a voice assistant to open up my workspace.</p>
+        </div>
 
-    <!-- <footer>
-    <div class="contact-row">
-        <div class="contact-column"><a href="https://www.linkedin.com/in/karantyagi80/"><img src="img/linkedin.png" alt="linkedin" height="20" width="20"></a></div>
-        <div class="contact-column"><a href="https://www.instagram.com/paapipanda/"><img src="img/insta.png" alt="instagram" height="20" width="20"></a></div>
-        <div class="contact-column"><a href="mailto:karantyagi80@gmail.com"><img src="img/gmail.png" alt="Gmail" height="20" width="20"></a></div>
+        <div class="pyqt-tool">
+        <h1><a href="https://medium.com/@karantyagi80/pyqt-based-tool-to-list-employees-and-their-respective-tasks-a9db5a022eb8" alt="pyqt-tool" target="_blank">PyQt Tool</a></h1>     
+        <p>Tool to list employees and their tasks from a json file.</p>    
+        </div>
+
+        <div class="light-rig">
+            <h1><a href="https://medium.com/@karantyagi80/light-rig-tool-b5b79299ab6f" alt="light-rig-tool" target="_blank">Light-Rig Tool</a></h1>     
+            <p>Tool to setup 3 types of light rigs: 3 Point, Fake GI, IBL.</p>  
+
     </div>
-</footer> -->
+
+
+
+    </div>
+    
+    <div class="jukebox" id="jukebox-div">
+        <p id="content">This is jukebox</p>
+    </div>
+
 </body>
 </html>

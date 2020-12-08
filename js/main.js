@@ -1,26 +1,77 @@
+function about_div()
+{
+console.log(document.getElementById("about-div"))
+if ((document.getElementById("about-div").style.display === "none") || (document.getElementById("about-div").style.display === "block"))
+    {
+    document.getElementById("about-div").style.display = "block";
+    document.getElementById("design-div").style.display = "none";
+    document.getElementById("development-div").style.display = "none";
+    document.getElementById("jukebox-div").style.display = "none";
+    }
+    else 
+    {
+        document.getElementById("about-div").style.display = "none";
+        document.getElementById("design-div").style.display = "none";
+        document.getElementById("development-div").style.display = "none";
+        document.getElementById("jukebox-div").style.display = "none";
+        }
+      }
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-// function nav_view() {
-//     var x = document.getElementById("nav");
-//     if (x.className === "nav") {
-//       x.className += " responsive";
-//     } else {
-//       x.className = "nav";
-//     }
-//   } 
+function design_div()
+{
+console.log(document.getElementById("design-div"))
+if ((document.getElementById("design-div").style.display === "none") || (document.getElementById("design-div").style.display === "block"))
+    {
+    document.getElementById("about-div").style.display = "none";
+    document.getElementById("design-div").style.display = "block";
+    document.getElementById("development-div").style.display = "none";
+    document.getElementById("jukebox-div").style.display = "none";
+    }
+    else 
+    {
+        document.getElementById("about-div").style.display = "none";
+        document.getElementById("design-div").style.display = "none";
+        document.getElementById("development-div").style.display = "none";
+        document.getElementById("jukebox-div").style.display = "none";
+        }
+      }
 
 
-//   function nav_content(option_id){
-//       if (option_id == "about-me"){
-//         var contentdiv = document.getElementById("content-area");
-//         contentdiv.InnerHtml  = "Timeline.html";
-//       }
-//   }
-
-
-window.load = function() {
-  var about = document.getElementById("about");
-  about.onclick=function(){
-    document.getElementById("content").innerHTML = "Timeline.html";
-  }
-}
+function my_work_div()
+      {
+      console.log(document.getElementById("development-div"))
+      if ((document.getElementById("development-div").style.display === "none") || (document.getElementById("development-div").style.display === "block"))
+          {
+          document.getElementById("about-div").style.display = "none";
+          document.getElementById("design-div").style.display = "none";
+          document.getElementById("development-div").style.display = "block";
+          document.getElementById("jukebox-div").style.display = "none";
+          }
+          else 
+          {
+              document.getElementById("about-div").style.display = "none";
+              document.getElementById("design-div").style.display = "none";
+              document.getElementById("development-div").style.display = "none";
+              document.getElementById("jukebox-div").style.display = "none";
+              }
+            }
+            
+            
+function jukebox_div()
+            {
+            console.log(document.getElementById("jukebox-div"))
+            if ((document.getElementById("jukebox-div").style.display === "none") || (document.getElementById("jukebox-div").style.display === "block"))
+                {
+                document.getElementById("about-div").style.display = "none";
+                document.getElementById("design-div").style.display = "none";
+                document.getElementById("development-div").style.display = "none";
+                document.getElementById("jukebox-div").style.display = "block";
+                }
+                else 
+                {
+                    document.getElementById("about-div").style.display = "none";
+                    document.getElementById("design-div").style.display = "none";
+                    document.getElementById("development-div").style.display = "none";
+                    document.getElementById("jukebox-div").style.display = "none";
+                    }
+                  }
