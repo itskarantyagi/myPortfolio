@@ -1,507 +1,243 @@
-@font-face {
-	font-family:'Grotesk-Regular';
-	src: url('fonts/GroteskRegular_gdi.eot');
-	src: url('fonts/GroteskRegular_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/GroteskRegular_gdi.woff') format('woff'),
-		url('fonts/GroteskRegular_gdi.ttf') format('truetype'),
-		url('fonts/GroteskRegular_gdi.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
+body{
+background-color: #FFFFFF;
+/* font-family: 'Special Elite'; */
+font-family: 'Montserrat', sans-serif;
 }
-
-@font-face {
-	font-family:'Grotesk-Bold';
-	src: url('fonts/GroteskBold_gdi.eot');
-	src: url('fonts/GroteskBold_gdi.eot?#iefix') format('embedded-opentype'),
-		url('fonts/GroteskBold_gdi.woff') format('woff'),
-		url('fonts/GroteskBold_gdi.ttf') format('truetype'),
-		url('fonts/GroteskBold_gdi.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
-}
-
-
 
 html {
-  background-color: #000;
-  width: 100%;
-  height: auto;
-  overflow-x: hidden;
-  position: relative;
+  overflow-y: scroll;
 }
 
-a,
-a:link,
-a:visited,
-a:active {
-	text-decoration: none;
-	color: #FFF;
-	cursor: pointer !important;
+/* HEADING  */
+
+.heading h1{
+    text-align: center;
+    letter-spacing: 25;
+    font-size: 25;
+    margin: o auto;
 }
 
-a:hover {
-	cursor: pointer !important;
+/* NAVIGATION BAR */
+
+.nav{
+    margin-top: 20;
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    align-items: center;
+    margin: 0 auto;
 }
 
-body {
-	padding: 0;
-	margin: 0;
-	text-align: left;
-	-webkit-font-smoothing: antialiased;
-	position:relative;
-	height: auto;
+.nav a{
+    padding-top: 10;
+    padding-bottom: 10;
+  display: inline;
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  text-align: center;
+
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-#home-about {
-	font-family: 'Grotesk-Bold';
-	
-	font-size: 57px !important;
-	line-height: 118%;
-	padding:5px 85px 0px 85px;
-	width: calc(100% - 170px);
-	height: auto;
-	background-color: #000;
-	z-index: 5;
-	position: relative;
-	color: #FFF;
-	letter-spacing: -0.007em;
+.nav a:hover{
+    color: transparent;
+    transition: 3000ms ease;
+    
+  }
+
+.navbar a.active {
+    color : grey; 
+    background-color: #1E90FF;
+  }
+
+.nav .icon{
+  display: none;
+}  
+
+/* CONTACT */
+
+.contact-row{
+    display: flex;
+    padding-top: 5;
+    width: 60%;
+    overflow: auto;
+    align-items: center;
+    margin: 0 auto;
+  } 
+  
+.contact-column{
+      flex: 25%;
+  }
+
+.contact-row img{
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    filter: grayscale(100%);
+    opacity: 0.80;
 }
 
-#home-work {
-	font-family: 'Grotesk-Bold';
-	
-	font-size: 117px !important;
-	line-height: 100%;
-	padding:20px 105px 90px 85px;
-	width: calc(100% - 170px);
-	height: auto;
-	background-color: #000;
-	z-index: 5;
-	position: relative;
-	color: #FFF;
-	letter-spacing: -0.02em;
-}
-#home-work a:hover {
-	text-decoration: line-through;
-}
-#home-work a:link,
-#home-work a:visited,
-#home-work a:active {
-	color: #777;
+.contact-row img:hover{
+    filter: grayscale(0%);
+    opacity: 1;
 }
 
+/* ABOUT */
 
-
-#home {
-	font-family: 'Grotesk-Bold';
-	
-	font-size: 102px !important;
-	line-height: 100%;
-	padding:40px 95px 10px 95px;
-	width: calc(100% - 170px);
-	height: auto;
-	background-color: #000;
-	z-index: 5;
-	position: relative;
-	color: #FFF;
-	letter-spacing: -0.02em;
-}
-
-#home a:link,
-#home a:visited,
-#home a:active {
-	font-family:'Grotesk-Regular';
-	color:#999;
-}
-
-#home a:hover {
-	text-decoration: line-through;
-}
-
-#work_wrapper {
-	width:100%;
-	height: auto;
-	position: relative;
-	margin:0;
-	padding:0;
-}
-
-.work {
-	position: relative;
-	padding: 0px;
-	width: 100%;
-	margin-bottom: 100px;
-	background-color: black;
+.about p{
+  padding-top: 40;
+  width: 60%;
+  overflow: auto;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 2;
 }
 
 
-.work h1,
-.work h2 {
-	font-family:'Grotesk-Bold';
-	position: absolute;
-	width: 100%;
-	margin: 0;
-	font-size: 30px;
-	padding:0;
-	bottom: 45px;
-	right: 90px;
-	display: block;
-	text-align: right;
-	letter-spacing: -0.03em;
-	/*	border: 1px solid #fff;*/
-	z-index: 2;
-	line-height: 0.80em;
+/* DESIGN */
+
+.design-div p{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#contact {
-	font-size: 104px !important;
-	line-height: 100%;
-	padding:36px 105px 80px 85px;
-	width: calc(100% - 170px);
-	height: auto;
-	background-color: #000;
-	z-index: 5;
-	position: relative;
-	color: #FFF;
-	letter-spacing: -0.02em;
+.design-div h1 {
+  padding-top: 40;
+  width: 60%;
+  overflow: auto;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
+} 
+
+
+#design-div {
+  display: none;
 }
 
-#contact a:link,
-#contact a:visited,
-#contact a:active {
-	font-family:'Grotesk-Regular' !important;
-	color:#888;
+.college-fests:hover{
+  transform: scale(1.1);
 }
 
-#contact a:hover {
-	text-decoration: line-through;
+
+.puma:hover {
+  transform: scale(1.1);
 }
 
-#contact h1 a:hover {
-	text-decoration: line-through;
+.meraki:hover {
+  transform: scale(1.1);
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-		#home {
-		font-size: 57px !important;
-		padding:3px 90px 15px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-about {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 30px !important;
-		line-height: 118%;
-		padding:20px 60px 60px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.007em;
-	}
-	#home-work {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 64px !important;
-		line-height: 100%;
-		padding:29px 84px 83px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-work a:hover {
-		text-decoration: line-through;
-	}
-	#home-work a:link,
-	#home-work a:visited,
-	#home-work a:active {
-		color: #777;
-	}
-	
-	#contact {
-		font-size: 70px !important;
-		line-height: 100%;
-		padding:18px 105px 78px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	
-	#contact a:link,
-	#contact a:visited,
-	#contact a:active {
-		font-family:'Grotesk-Regular' !important;
-		color:#888;
-	}
-	
-	#contact a:hover {
-		text-decoration: line-through;
-	}
-	
-	#contact h1 a:hover {
-		text-decoration: line-through;
-	}
 
-/* Styles */
+/* DEVELOPMENT */
+
+.development-div h1{
+  padding-top: 40;
+  width: 60%;
+  overflow: auto;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 918px) and (max-device-width : 1082px) {
-		#home {
-		font-size: 57px !important;
-		padding:3px 90px 15px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-about {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 30px !important;
-		line-height: 118%;
-		padding:20px 60px 60px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.007em;
-	}
-	#home-work {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 64px !important;
-		line-height: 100%;
-		padding:29px 84px 83px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-work a:hover {
-		text-decoration: line-through;
-	}
-	#home-work a:link,
-	#home-work a:visited,
-	#home-work a:active {
-		color: #777;
-	}
-	
-	#contact {
-		font-size: 70px !important;
-		line-height: 100%;
-		padding:18px 105px 78px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	
-	#contact a:link,
-	#contact a:visited,
-	#contact a:active {
-		font-family:'Grotesk-Regular' !important;
-		color:#888;
-	}
-	
-	#contact a:hover {
-		text-decoration: line-through;
-	}
-	
-	#contact h1 a:hover {
-		text-decoration: line-through;
-	}
-
-/* Styles */
+.development-div p{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1114px) {
-		#home {
-		font-size: 127px !important;
-		padding:3px 90px 15px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-about {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 63px !important;
-		line-height: 118%;
-		padding:20px 60px 60px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.007em;
-	}
-	#home-work {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 146px !important;
-		line-height: 100%;
-		padding:29px 84px 83px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-work a:hover {
-		text-decoration: line-through;
-	}
-	#home-work a:link,
-	#home-work a:visited,
-	#home-work a:active {
-		color: #777;
-	}
-	
-	#contact {
-		font-size: 138px !important;
-		line-height: 100%;
-		padding:8px 105px 78px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	
-	#contact a:link,
-	#contact a:visited,
-	#contact a:active {
-		font-family:'Grotesk-Regular' !important;
-		color:#888;
-	}
-	
-	#contact a:hover {
-		text-decoration: line-through;
-	}
-	
-	#contact h1 a:hover {
-		text-decoration: line-through;
-	}
-/* Styles */
+.development-div {
+  transition: transform 0.2s;
 }
-/* iPhone XS Max, XR ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-	#home {
-		font-size: 57px !important;
-		padding:3px 90px 15px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-about {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 30px !important;
-		line-height: 118%;
-		padding:20px 60px 60px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.007em;
-	}
-	#home-work {
-		font-family: 'Grotesk-Bold';
-		
-		font-size: 64px !important;
-		line-height: 100%;
-		padding:33px 84px 83px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	#home-work a:hover {
-		text-decoration: line-through;
-	}
-	#home-work a:link,
-	#home-work a:visited,
-	#home-work a:active {
-		color: #777;
-	}
-	
-	#contact {
-		font-size: 81px !important;
-		line-height: 100%;
-		padding:8px 105px 78px 20px;
-		width: calc(100% - 170px);
-		height: auto;
-		background-color: #000;
-		z-index: 5;
-		position: relative;
-		color: #FFF;
-		letter-spacing: -0.02em;
-	}
-	
-	#contact a:link,
-	#contact a:visited,
-	#contact a:active {
-		font-family:'Grotesk-Regular' !important;
-		color:#888;
-	}
-	
-	#contact a:hover {
-		text-decoration: line-through;
-	}
-	
-	#contact h1 a:hover {
-		text-decoration: line-through;
-	}
+
+.development-div h1:hover{
+  transform: scale(1.1);
 }
-/* END Smartphone */
+
+.development-div h3:hover{
+  transform: scale(1.1);
+}
+
+.development-div p:hover{
+  transform: scale(1.1);
+}
+
+.light-rig:hover {
+  transform: scale(1.1);
+}
+
+.voice-assistant:hover, .pyqt-tool:hover, .light-rig:hover{
+  transform: scale(1.1);
+}
+
+#development-div{
+  display: none;
+}
+
+/* JUKEBOX */
+
+.jukebox p{
+  padding-top: 40;
+  width: 60%;
+  overflow: auto;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+
+#jukebox-div{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
