@@ -1,10 +1,10 @@
-#overview
+# overview
 Portfolio website
 
-#Install Dependencies
+# Install Dependencies
 None
 
-#Usage
+# Usage
 - Index.html
 - Styling : css/styles.css
 - javascript : js/main.js
