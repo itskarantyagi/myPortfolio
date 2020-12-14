@@ -26,8 +26,6 @@ html {
     overflow: auto;
     align-items: center;
     margin: 0 auto;
-    text-align: center;
-    padding: 9px 12px;
 }
 
 .nav a{
