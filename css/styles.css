@@ -52,10 +52,6 @@ html {
     
   }
 
-.navbar a.active {
-    color : grey; 
-    background-color: #1E90FF;
-  }
 
 .nav .icon{
   display: none;
@@ -144,22 +140,6 @@ html {
   color: transparent;
   transition: 000ms ease;
 }
-
-
-
-/* .resume a{
-  color: black;
-  font-weight: bold;
-  background: linear-gradient(90deg, red, orange, rgb(134, 134, 12), green, blue, purple);
-  background-clip: text;
-  -webkit-background-clip: text;
-  margin: auto;
-} */
-
-/* .resume a:hover{
-  color: transparent;
-  transition: 500ms ease;
-} */
 
 
 
