@@ -249,20 +249,12 @@ a{
 
 
 .git {
-  /* padding-top: 2%;
-  transform: translate(-10%, -10%);
-  width: 50%;
-  margin: 0 auto;
-  text-align: center; */
-
-
   padding-top: 40;
   width: 60%;
   overflow: auto;
   text-align: center;
   margin: 0 auto;
   line-height: 2;
-
 }
 
 .git i{
@@ -271,12 +263,10 @@ a{
 
 
 .git a{
-  filter: grayscale(0%);
   opacity: 0.5;
 }
 
 .git a:hover{
-  filter: grayscale(100%);
   opacity: 1;
 }
 
