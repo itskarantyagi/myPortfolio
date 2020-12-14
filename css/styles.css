@@ -105,7 +105,7 @@ html {
   background: transparent;
   border-radius: 5px;
   color: transparent;
-  font-size: 21px;
+  font-size: 15px;
   
   border: solid 1.5px black;
   
@@ -250,6 +250,13 @@ a{
   text-decoration-color: white;
   background-color: w;
 }
+
+
+
+#git {
+  width: 100%;
+}
+
 
 
 @keyframes shake {
