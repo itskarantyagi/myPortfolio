@@ -106,15 +106,10 @@ html {
   border-radius: 5px;
   color: transparent;
   font-size: 15px;
-  
+  letter-spacing: 2px;
   border: solid 1.5px black;
   
 }
-
-  /* background: linear-gradient(90deg, red, orange, rgb(134, 134, 15), green, blue, purple);
-  background-clip: content-box;
-  -webkit-background-clip: content-box; */
-/* } */
 
 .resume button:hover{
   border-color: transparent;
@@ -253,8 +248,36 @@ a{
 
 
 
-#git {
-  width: 100%;
+.git {
+  /* padding-top: 2%;
+  transform: translate(-10%, -10%);
+  width: 50%;
+  margin: 0 auto;
+  text-align: center; */
+
+
+  padding-top: 40;
+  width: 60%;
+  overflow: auto;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+
+}
+
+.git i{
+  font-size:200%;
+}
+
+
+.git a{
+  filter: grayscale(0%);
+  opacity: 0.5;
+}
+
+.git a:hover{
+  filter: grayscale(100%);
+  opacity: 1;
 }
 
 
