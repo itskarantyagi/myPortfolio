@@ -75,3 +75,12 @@ function jukebox_div()
                     document.getElementById("jukebox-div").style.display = "none";
                     }
                   }
+
+function nav_collapse() {
+  var x = document.getElementById("Topnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+} 

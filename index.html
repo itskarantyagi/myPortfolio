@@ -1,14 +1,16 @@
 
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image/png" href="img/fav.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/main.js"></script>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
 </head>
 <body>
 <!---->
@@ -17,13 +19,13 @@
     </div>
     
     <!--Nav bar-->
-    <div class="nav" id="nav">
+    <div class="nav" id="Topnav">
         <a class="active" href="#" id="about" onclick="about_div()">About Me</a>
         <a href="#" id="design" onclick="design_div()">Design</a>
         <a href="#" id="my-work" onclick="my_work_div()">Development</a>
         <a href="#" id="jukebox" onclick="jukebox_div()">Jukebox</a>
-         <a href="javascript:void(0);" class="icon">
-    <i class="fa fa-bars"></i>
+        <a href="javascript:void(0);" class="icon" onclick="nav_collapse()">
+            <i class="fa fa-bars" id="fa"></i>
   </a>
     </div>
     
@@ -39,7 +41,12 @@
     <div class="about" id="about-div">
         <p id="content">Hello! My name is Karan Tyagi. I'm a software developer. I am a creative person but have learned to be
             technical over the years and I've tried to always pursue something which is an amalgamation of both.</p>
+        
+        <div class="resume">
+            <button><a href="docs/KaranTyagi_Resume.pdf" target="_blank">RESUME</a></button>
         </div>
+
+    </div>
 
     <!--design work-->
     <div class="design-div" id="design-div">
@@ -90,6 +97,7 @@
     <div class="jukebox" id="jukebox-div">
         <p id="content">Under construction</p>
     </div>
+
 
 </body>
 </html>

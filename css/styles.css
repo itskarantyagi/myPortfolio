@@ -26,6 +26,8 @@ html {
     overflow: auto;
     align-items: center;
     margin: 0 auto;
+    text-align: center;
+    padding: 9px 12px;
 }
 
 .nav a{
@@ -98,6 +100,67 @@ html {
   margin: 0 auto;
   line-height: 2;
 }
+
+.resume {
+  text-align: center;
+}
+
+.resume button{
+  padding: 5px 10px 5px 10px;
+  margin-top: 40;
+  background: transparent;
+  border-radius: 5px;
+  color: transparent;
+  font-size: 21px;
+  
+  border: solid 1.5px black;
+  
+}
+
+  /* background: linear-gradient(90deg, red, orange, rgb(134, 134, 15), green, blue, purple);
+  background-clip: content-box;
+  -webkit-background-clip: content-box; */
+/* } */
+
+.resume button:hover{
+  border-color: transparent;
+  background-image: linear-gradient(90deg, red, orange, rgb(133, 133, 44), green, blue, purple);
+  background-origin: border-box;
+  background-clip:  border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+
+  color: transparent;
+  transition: 500ms ease;
+}
+
+.resume a{
+  color: black;
+  background: linear-gradient(90deg, red, orange, rgb(134, 134, 15), green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.resume a:hover{
+  color: transparent;
+  transition: 000ms ease;
+}
+
+
+
+/* .resume a{
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, orange, rgb(134, 134, 12), green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: auto;
+} */
+
+/* .resume a:hover{
+  color: transparent;
+  transition: 500ms ease;
+} */
+
 
 
 /* DESIGN */
@@ -203,6 +266,14 @@ a{
 }
 
 
+.nav .icon{
+  display: none;
+  color: white;
+  text-decoration-color: white;
+  background-color: w;
+}
+
+
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -218,8 +289,7 @@ a{
 }
 
 
- /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 710px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
     float: right;
@@ -227,8 +297,7 @@ a{
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
   .nav.responsive {position: relative;}
   .nav.responsive a.icon {
     position: absolute;
