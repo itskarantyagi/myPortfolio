@@ -200,11 +200,9 @@ html {
   display: none;
 }
 
+/*Development END*/
+
 /* JUKEBOX */
-
-
-
-
 
 
 .jukebox {
@@ -229,7 +227,6 @@ a{
 }
 
 
-/* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 50%;
@@ -240,7 +237,6 @@ a{
     color: rgb(95, 93, 93);
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -271,13 +267,7 @@ a:hover{
     word-spacing: 10px;
 }
 
-
-
-
-
-
-
-
+/* JUKEBOX END*/
 
 
 
