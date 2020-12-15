@@ -202,13 +202,16 @@ html {
 
 /* JUKEBOX */
 
-.jukebox p{
-  padding-top: 40;
+
+
+
+
+
+.jukebox {
+  padding-top: 30;
   width: 60%;
-  overflow: auto;
-  text-align: left;
   margin: 0 auto;
-  line-height: 2;
+  text-align: center;
 }
 
 
@@ -220,6 +223,63 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 12px;
+}
+
+.column p{
+    color: rgb(95, 93, 93);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#spotify{    
+    color: rgb(30,215,96);
+}
+
+#youtube{
+    color: rgb(255,0,0);
+}
+
+a{
+    text-decoration: none;
+    filter: grayscale(100%);
+}
+
+a:hover{
+    filter: grayscale(0%);
+}
+
+
+.links{
+    word-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .nav .icon{
