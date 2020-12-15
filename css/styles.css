@@ -142,6 +142,7 @@ html {
   width: 60%;
   margin: 0 auto;
   text-align: center;
+  color: rgb(95, 93, 93);;
 }
 
 .design-div h1 {
@@ -187,27 +188,9 @@ html {
   width: 60%;
   margin: 0 auto;
   text-align: center;
+  color: rgb(95, 93, 93);
 }
 
-.development-div {
-  transition: transform 0.2s;
-}
-
-.development-div h1:hover{
-  transform: scale(1.1);
-}
-
-.development-div h3:hover{
-  transform: scale(1.1);
-}
-
-.development-div p:hover{
-  transform: scale(1.1);
-}
-
-.light-rig:hover {
-  transform: scale(1.1);
-}
 
 .voice-assistant:hover, .pyqt-tool:hover, .light-rig:hover{
   transform: scale(1.1);
