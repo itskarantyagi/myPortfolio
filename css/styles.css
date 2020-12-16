@@ -38,8 +38,8 @@ html {
   font-size: 17px;
   width: 25%;
   text-align: center;
-
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background: linear-gradient(90deg, red, orange, rgb(133, 133, 44), green);
+  /* background: linear-gradient(90deg, red, orange, yellow, green, rgb(118, 118, 226), rgb(199, 83, 199)); */
   background-clip: text;
   -webkit-background-clip: text;
 }
