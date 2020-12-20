@@ -105,7 +105,7 @@ html {
   background: rgba(255, 68, 0, 0.801);
   border-radius: 5px;
   color: white;
-  font-weight: 350;
+  font-weight: 300;
   font-size: 15px;
   letter-spacing: 2px;
   border: solid 1.5px rgb(255, 68, 0);
@@ -305,6 +305,34 @@ a{
 .links{
     word-spacing: 10px;
 }
+
+
+
+
+
+.column span {
+  width: 15%;
+margin-top: 40;
+background: transparent;
+/* color: transparent; */
+font-size: 15px;
+letter-spacing: 2px;
+}
+
+      .column span #speaker{
+          display: none;
+      }
+      .column span:hover .default{
+          display: none;
+      }
+      .column span:hover #speaker{
+          display: inline;
+      }
+
+
+
+
+
 
 /* JUKEBOX END*/
 

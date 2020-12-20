@@ -84,3 +84,13 @@ function nav_collapse() {
     x.className = "nav";
   }
 } 
+
+function play(audioid){
+       var audio = document.getElementById(audioid);
+       audio.play();
+                 }
+
+      function stop(audioid){
+       var audio = document.getElementById(audioid);
+       audio.pause();
+                 }
