@@ -38,22 +38,16 @@ html {
   font-size: 17px;
   width: 25%;
   text-align: center;
-  background: linear-gradient(90deg, red, orange, rgb(201, 201, 57), green);
-  /* background: linear-gradient(90deg, red, orange, yellow, green, rgb(118, 118, 226), rgb(199, 83, 199)); */
-  background-clip: text;
-  -webkit-background-clip: text;
+  /* background: linear-gradient( yellow,  green); */
+   /* background: linear-gradient(90deg, red, orange, yellow, green, rgb(118, 118, 226), rgb(199, 83, 199)); */
+  /* background-clip: text;
+  -webkit-background-clip: text; */
 }
 
 .nav a:hover{
-    color: transparent;
+    color: orangered;
     transition: 3000ms ease;
-    
   }
-
-
-.nav .icon{
-  display: none;
-}  
 
 /* CONTACT */
 
@@ -108,37 +102,39 @@ html {
 .resume button{
   padding: 5px 10px 5px 10px;
   margin-top: 40;
-  background: transparent;
+  background: rgba(255, 68, 0, 0.801);
   border-radius: 5px;
-  color: transparent;
+  color: white;
+  font-weight: 350;
   font-size: 15px;
   letter-spacing: 2px;
-  border: solid 1.5px black;
+  border: solid 1.5px rgb(255, 68, 0);
   
 }
 
 .resume button:hover{
-  border-color: transparent;
+  border-color:orangered;
+  /* border-color: transparent;
   background-image: linear-gradient(90deg, red, orange, rgb(133, 133, 44), green, blue, purple);
   background-origin: border-box;
-  background-clip:  border-box;
+  background-clip:  border-box; */
   box-shadow: 2px 1000px 1px #fff inset;
 
-  color: transparent;
+  color: orangered;
   transition: 500ms ease;
 }
 
-.resume a{
-  color: black;
-  background: linear-gradient(90deg, red, orange, rgb(134, 134, 15), green, blue, purple);
+/* .resume a{
+  color: black; */
+  /* background: linear-gradient(90deg, red, orange, rgb(134, 134, 15), green, blue, purple);
   background-clip: text;
-  -webkit-background-clip: text;
-}
+  -webkit-background-clip: text; */
+/* } */
 
-.resume a:hover{
-  color: transparent;
+/* .resume a:hover{
+  color: orangered;
   transition: 100ms ease;
-}
+} */
 
 
 
@@ -368,6 +364,7 @@ a{
   .nav a.icon {
     float: right;
     display: block;
+    padding: 5px 5px 5px 5px;
   }
 }
 
@@ -377,10 +374,12 @@ a{
     position: absolute;
     right: 0;
     top: 0;
+    padding:5px 5px 5px 5px;
   }
   .nav.responsive a {
     float: none;
     display: block;
     text-align: left;
+    padding: 5px 5px 5px 5px;
   }
 } 
