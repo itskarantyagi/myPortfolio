@@ -112,7 +112,6 @@ html {
   font-size: 15px;
   letter-spacing: 2px;
   border: solid 1.5px rgb(255, 68, 0);
-  
 }
 
 .resume button:hover{
@@ -142,6 +141,13 @@ html {
 
 
 /* DESIGN */
+
+.arimg {
+  background-color: rgb(219, 98, 98);
+  width: 100%;
+}
+
+
 
 .design-div {
   width: 60%;
@@ -217,26 +223,119 @@ html {
 
 /* DEVELOPMENT */
 
-.development-div h1{
-  padding-top: 40;
-  width: 60%;
+
+
+.development-div h3{
+  width: 90%;
   overflow: auto;
   margin: 0 auto;
   text-align: center;
   line-height: 2;
 }
 
+.development-div hr {
+  color: rgb(134, 131, 131);
+  width: 40%;
+}
+
 .development-div p{
-  width: 60%;
+  padding-bottom: 20px;
+}
+
+.ar-app:hover hr{
+  color: white;
+}
+
+.ar-app:hover h3{
+  color: white;
+}
+
+.ar-app:hover p{
+  color: white;
+}
+
+
+
+.voice-assistant:hover hr{
+  color: white;
+}
+
+.voice-assistant:hover h3{
+  color: white;
+}
+
+.voice-assistant:hover p{
+  color: white;
+}
+
+
+.pyqt-tool:hover hr{
+  color: white;
+}
+
+.pyqt-tool:hover h3{
+  color: white;
+}
+
+.pyqt-tool:hover p{
+  color: white;
+}
+
+.light-rig:hover hr{
+  color: white;
+}
+
+.light-rig:hover h3{
+  color: white;
+}
+
+.light-rig:hover p{
+  color: white;
+}
+
+
+
+/* .development-div h3 {
+  padding-top: 20;
+} */
+
+/* .development-div p{
+  width: 90%;
   margin: 0 auto;
   text-align: center;
-  color: rgb(95, 93, 93);
+  color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+} */
+
+.card {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 60%;  
+  text-align: center;
+  border-radius: 5px;
+}
+.card:hover{
+  background-color: rgba(255, 68, 0, 0.678);
+}
+
+.development-div a:hover{
+  color: orangered;
+}
+
+.development-div img {
+  background-color: #aaa;
+  width: 80%;
 }
 
 
-.voice-assistant:hover, .pyqt-tool:hover, .light-rig:hover{
+/* .ar-app:hover, .voice-assistant:hover, .pyqt-tool:hover, .light-rig:hover{
   transform: scale(1.1);
-}
+} */
+
+/* .card:hover{
+  transform: scale(1.1);
+} */
 
 #development-div{
   display: none;
@@ -356,6 +455,7 @@ letter-spacing: 2px;
   width: 60%;
   overflow: auto;
   text-align: center;
+  align-items: center;
   margin: 0 auto;
   line-height: 2;
 }
