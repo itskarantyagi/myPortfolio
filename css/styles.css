@@ -94,6 +94,9 @@ html {
   margin: 0 auto;
   line-height: 2;
 }
+#about-div{
+  display: block;
+}
 
 .resume {
   text-align: center;
