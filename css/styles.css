@@ -19,6 +19,10 @@ html {
 
 /* NAVIGATION BAR */
 
+#about{
+  color: orangered;
+}
+
 .nav{
     margin-top: 20;
     width: 60%;
