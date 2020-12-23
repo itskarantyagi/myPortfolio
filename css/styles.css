@@ -285,6 +285,19 @@ html {
   color: white;
 }
 
+.chomsky-hierarchy:hover hr{
+  color: white;
+}
+
+.chomsky-hierarchy:hover h3{
+  color: white;
+}
+
+.chomsky-hierarchy:hover p{
+  color: white;
+}
+
+
 .light-rig:hover hr{
   color: white;
 }
