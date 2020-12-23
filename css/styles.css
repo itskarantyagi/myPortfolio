@@ -190,43 +190,7 @@ html {
 }
 
 
-/* .design-div p{
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  color: rgb(95, 93, 93);;
-}
-
-.design-div h1 {
-  padding-top: 40;
-  width: 60%;
-  overflow: auto;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 2;
-} 
-
-
-#design-div {
-  display: none;
-}
-
-.college-fests:hover{
-  transform: scale(1.1);
-}
-
-
-.puma:hover {
-  transform: scale(1.1);
-}
-
-.meraki:hover {
-  transform: scale(1.1);
-} */
-
-
 /* DEVELOPMENT */
-
 
 
 .development-div h3{
@@ -311,19 +275,6 @@ html {
 }
 
 
-
-/* .development-div h3 {
-  padding-top: 20;
-} */
-
-/* .development-div p{
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  padding-bottom: 10px;
-} */
-
 .card {
   background-color: white;
   margin: 0 auto;
@@ -345,14 +296,6 @@ html {
   width: 80%;
 }
 
-
-/* .ar-app:hover, .voice-assistant:hover, .pyqt-tool:hover, .light-rig:hover{
-  transform: scale(1.1);
-} */
-
-/* .card:hover{
-  transform: scale(1.1);
-} */
 
 #development-div{
   display: none;
