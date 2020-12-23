@@ -192,6 +192,22 @@ html {
 
 /* DEVELOPMENT */
 
+.development-div i{
+    font-size:110%;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+
+
+
+.development-div i:hover{
+  opacity: 1;
+  color: black;
+}
+
 
 .development-div h3{
   width: 90%;
@@ -206,9 +222,9 @@ html {
   width: 40%;
 }
 
-.development-div p{
+/* .development-div p{
   padding-bottom: 20px;
-}
+} */
 
 .ar-app:hover hr{
   color: white;
@@ -274,6 +290,9 @@ html {
   color: white;
 }
 
+#youtube-project1:hover{
+ color: red;
+}
 
 .card {
   background-color: white;
@@ -284,12 +303,12 @@ html {
   border-radius: 5px;
 }
 .card:hover{
-  background-color: rgba(255, 68, 0, 0.678);
+  background-color: rgba(255, 68, 0, 0.692);
 }
 
-.development-div a:hover{
+/* .development-div a:hover{
   color: orangered;
-}
+} */
 
 .development-div img {
   background-color: #aaa;
