@@ -193,7 +193,7 @@ html {
 /* DEVELOPMENT */
 
 .development-div i{
-    font-size:110%;
+    font-size:140%;
     padding-bottom: 20px;
     padding-left: 10px;
     margin: 0 auto;
@@ -208,6 +208,10 @@ html {
   color: black;
 }
 
+
+.mediaicon {
+  font-size: 200%;
+}
 
 .development-div h3{
   width: 90%;
@@ -226,71 +230,21 @@ html {
   padding-bottom: 20px;
 } */
 
-.ar-app:hover hr{
+.card:hover hr{
   color: white;
 }
 
-.ar-app:hover h3{
+.card:hover h3{
   color: white;
 }
 
-.ar-app:hover p{
-  color: white;
-}
-
-
-
-.voice-assistant:hover hr{
-  color: white;
-}
-
-.voice-assistant:hover h3{
-  color: white;
-}
-
-.voice-assistant:hover p{
+.card:hover p{
   color: white;
 }
 
 
-.pyqt-tool:hover hr{
-  color: white;
-}
 
-.pyqt-tool:hover h3{
-  color: white;
-}
-
-.pyqt-tool:hover p{
-  color: white;
-}
-
-.chomsky-hierarchy:hover hr{
-  color: white;
-}
-
-.chomsky-hierarchy:hover h3{
-  color: white;
-}
-
-.chomsky-hierarchy:hover p{
-  color: white;
-}
-
-
-.light-rig:hover hr{
-  color: white;
-}
-
-.light-rig:hover h3{
-  color: white;
-}
-
-.light-rig:hover p{
-  color: white;
-}
-
-#youtube-project1:hover{
+#youtube-project:hover{
  color: red;
 }
 
