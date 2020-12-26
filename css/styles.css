@@ -303,12 +303,17 @@ html {
   border-radius: 5px;
 }
 .card:hover{
-  background-color: rgba(255, 68, 0, 0.692);
+  background-color: rgba(255, 68, 0, 0.747);
 }
 
 /* .development-div a:hover{
   color: orangered;
 } */
+
+.card p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .development-div img {
   background-color: #aaa;
@@ -332,6 +337,9 @@ html {
   text-align: center;
 }
 
+.jukebox_heading{
+  color: rgb(95, 93, 93);
+}
 
 #jukebox-div{
   display: none;
