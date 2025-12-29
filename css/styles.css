@@ -144,52 +144,6 @@ html {
 
 
 
-/* DESIGN */
-
-.arimg {
-  background-color: rgb(219, 98, 98);
-  width: 100%;
-}
-
-
-
-.design-div {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.design-div hr {
-  color: rgb(134, 131, 131);
-  width: 40%;
-}
-
-.design-div h3 {
-  padding-top: 40;
-}
-
-
-#design-div{
-  display: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.column-img {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-.row-img::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
 /* DEVELOPMENT */
 
 .development-div i{
