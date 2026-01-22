@@ -1,29 +1,47 @@
 function about_div() {
   document.getElementById("about-div").style.display = "block";
+  document.getElementById("design-div").style.display = "none";
   document.getElementById("development-div").style.display = "none";
   document.getElementById("jukebox-div").style.display = "none";
 
   document.getElementById("about").style.color = "orangered";
+  document.getElementById("design").style.color = "white";
+  document.getElementById("my-work").style.color = "white";
+  document.getElementById("jukebox").style.color = "white";
+}
+
+function design_div() {
+  document.getElementById("about-div").style.display = "none";
+  document.getElementById("design-div").style.display = "block";
+  document.getElementById("development-div").style.display = "none";
+  document.getElementById("jukebox-div").style.display = "none";
+
+  document.getElementById("about").style.color = "white";
+  document.getElementById("design").style.color = "orangered";
   document.getElementById("my-work").style.color = "white";
   document.getElementById("jukebox").style.color = "white";
 }
 
 function my_work_div() {
   document.getElementById("about-div").style.display = "none";
+  document.getElementById("design-div").style.display = "none";
   document.getElementById("development-div").style.display = "block";
   document.getElementById("jukebox-div").style.display = "none";
 
   document.getElementById("about").style.color = "white";
+  document.getElementById("design").style.color = "white";
   document.getElementById("my-work").style.color = "orangered";
   document.getElementById("jukebox").style.color = "white";
 }
 
 function jukebox_div() {
   document.getElementById("about-div").style.display = "none";
+  document.getElementById("design-div").style.display = "none";
   document.getElementById("development-div").style.display = "none";
   document.getElementById("jukebox-div").style.display = "block";
 
   document.getElementById("about").style.color = "white";
+  document.getElementById("design").style.color = "white";
   document.getElementById("my-work").style.color = "white";
   document.getElementById("jukebox").style.color = "orangered";
 }
